@@ -1,0 +1,25 @@
+.card-format {
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(8, 103, 8);
+}
+
+
+.section1-format {
+    width: 93%;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.button-format {
+    width: 93%;
+
+}
+input[type="range"] {
+    width: 100%;
+    height: 25px; 
+    background-color: #0f862e !important; 
+    border-radius: 5px; 
+    outline: none; 
+    cursor: pointer; 
+}

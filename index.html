@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title> My Webpage</title>
+</head>
+<body>
+    <div class="container  d-flex justify-content-center align-items-center">
+        <div class="card mt-5 card-format bg-success">
+            <div class="card-body d-flex justify-content-center align-items-center">
+                <h2 class="text-white">Calculadora de gorjeta</h2>
+            
+            </div>
+            <section class="section1-format mx-auto p-2">
+                <form action="" class="">
+                    <div class="form-row">
+                    <div class="col-auto mt-2">
+                    <label for="yourBill" class="form-label">Conta</label>
+                </div>
+                <div class="ml-auto col-10">
+                    <input type="text" id="yourBill" class="form-control" placeholder="Valor da conta">
+                </div>
+            </div>
+                </form>
+
+                <form action="" id="selectTip" class="mt-4">
+                    <div class="form-row p-1">
+                    <label for="selectTip" class="form-label">Gorjeta %</label>   
+                    <div class="ml-auto col-2 justify-content-end">
+                    <span class="" id="valueTipPerc"></span>   
+                </div>  
+                </div>          
+                    <input type="range" id="tipRange" step="5"> 
+               
+
+                <div id="finalTip">
+                    <p>Valor da gorjeta</p>
+                    <hr>
+
+                </div>
+                <div id="totalBill">
+                    <h5>Valor da conta</h5>
+                </div>
+
+
+                </form>      
+             
+            </section> 
+            
+            <section class="section1-format mx-auto p-2 mt-3"> 
+                <form action="">
+                    <div class="row p-3">
+                    <label for="selectSplit">Dividir com</label>
+               
+                <div class="ml-auto justify-content-end">
+                    <span id="splitWith"></span>
+                </div>
+            </div>
+                    <input type="range" id="splitRange">
+               
+                </form>  
+                <p>Conta para cada: <span id="billForEach"> Valor no spam</span></p>
+
+            </section>
+        </div>
+
+    </div>
+
+    <script src="file_tip.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
